@@ -1,0 +1,34 @@
+{
+  "entities": {
+    "properties": {
+      "title": "Property",
+      "description": "Real estate properties list",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "price": { "type": "number" },
+        "location": { "type": "string" },
+        "category": { "type": "string" },
+        "status": { "type": "string" },
+        "images": { "type": "array", "items": { "type": "string" } },
+        "code": { "type": "string" },
+        "transactionType": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["title", "price"]
+    },
+    "settings": {
+      "title": "Site Settings",
+      "description": "Site configuration"
+    },
+    "contracting": {
+      "title": "Contracting Packages",
+      "description": "Contracting services"
+    },
+    "inquiries": {
+      "title": "Inquiries",
+      "description": "Customer property inquiries"
+    }
+  }
+}

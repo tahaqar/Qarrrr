@@ -1,0 +1,51 @@
+<svg viewBox="0 0 500 650" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5D061" />
+      <stop offset="25%" stop-color="#E6A11D" />
+      <stop offset="50%" stop-color="#FFF2A1" />
+      <stop offset="75%" stop-color="#D48C11" />
+      <stop offset="100%" stop-color="#9E6100" />
+    </linearGradient>
+
+    <linearGradient id="goldTextGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE885" />
+      <stop offset="30%" stop-color="#EBAA25" />
+      <stop offset="70%" stop-color="#C9800B" />
+      <stop offset="100%" stop-color="#8A5200" />
+    </linearGradient>
+
+    <filter id="goldGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#9E6100" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <g filter="url(#goldGlow)" fill="url(#goldGrad)" stroke="url(#goldGrad)">
+    <!-- Base Line -->
+    <rect x="75" y="330" width="350" height="12" rx="3" />
+
+    <!-- Left Skyscraper -->
+    <path d="M 105 170 L 175 125 L 175 330 L 105 330 Z" fill="none" stroke-width="14" stroke-linejoin="round" />
+
+    <!-- Middle Skyscraper -->
+    <path d="M 175 125 L 245 80 L 245 330 L 175 330 Z" fill="none" stroke-width="14" stroke-linejoin="round" />
+
+    <!-- Right Skyscraper -->
+    <path d="M 235 20 L 340 55 L 340 330" fill="none" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- House -->
+    <path d="M 280 330 L 280 255 L 335 210 L 390 255 L 390 330 Z" fill="none" stroke-width="14" stroke-linejoin="round" />
+
+    <!-- 4 Windows -->
+    <rect x="318" y="292" width="16" height="16" rx="2" stroke-width="2" />
+    <rect x="340" y="292" width="16" height="16" rx="2" stroke-width="2" />
+    <rect x="318" y="312" width="16" height="16" rx="2" stroke-width="2" />
+    <rect x="340" y="312" width="16" height="16" rx="2" stroke-width="2" />
+  </g>
+
+  <g text-anchor="middle" fill="url(#goldTextGrad)" stroke="#8A5200" stroke-width="0.8">
+    <text x="250" y="415" font-size="42" font-weight="bold" font-family="'Cairo', sans-serif">مكـتب</text>
+    <text x="250" y="525" font-size="82" font-weight="900" font-family="'Cairo', sans-serif" letter-spacing="2">طه معـاذ</text>
+    <text x="250" y="610" font-size="48" font-weight="bold" font-family="'Cairo', sans-serif">للعقار والمقاولات</text>
+  </g>
+</svg>
